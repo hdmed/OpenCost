@@ -174,7 +174,7 @@ tr:hover{background:var(--panel2)}
 <div class="main"><div class="wrap">
 
   <div class="card" style="margin-bottom:12px;display:flex;gap:8px;align-items:center">
-    <span style="font-size:16px">💬</span><input type="text" id="nlq" placeholder="Ex: coût big-pickle mars, projet TokensDB, anomalie" style="flex:1;border:none;background:transparent;color:var(--txt);outline:none;font-size:13px">
+    <span style="font-size:16px">💬</span><input type="text" id="nlq" placeholder="Ex: coût big-pickle mars, projet OpenCost, anomalie" style="flex:1;border:none;background:transparent;color:var(--txt);outline:none;font-size:13px">
     <button class="fbtn" id="nlq-go">Go</button><span class="small" id="nlq-hint"></span>
   </div>
   <div class="filters">
@@ -1174,3 +1174,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
