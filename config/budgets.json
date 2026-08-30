@@ -1,0 +1,11 @@
+{
+  "$comment": "Budgets mensuels USD — consolidé globalement. Clés: global (total), by_project (nom projet), by_model (provider/model). Mensuel = plafond 30j glissants.",
+  "global": { "monthly": 1500 },
+  "by_project": {
+    "TokensDB": { "monthly": 800 }
+  },
+  "by_model": {
+    "opencode/big-pickle": { "monthly": 1000 },
+    "opencode/muse-spark-1.2-contributor-free": { "monthly": 5 }
+  }
+}

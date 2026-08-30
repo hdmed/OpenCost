@@ -1,0 +1,4 @@
+chart.js 4.4.7
+source: https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.js
+fichier: chart.umd.min.js (inliné par build_report.py, 100% offline)
+date: 2026-08-29

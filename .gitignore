@@ -1,0 +1,5 @@
+data/dataset.json
+data/sync_state.json
+dist/report.html
+__pycache__/
+*.pyc

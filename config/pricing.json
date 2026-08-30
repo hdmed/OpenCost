@@ -1,0 +1,19 @@
+{
+  "$comment": "Personnalisation des couts par modele, prix pour 1 million de tokens (USD). Cles: input_per_1M, output_per_1M, cache_read_per_1M, cache_write_per_1M, reasoning_per_1M. La cle est au format providerID/modelID. Un modele absent garde le cout OpenCode. Apres modification: python extract.py --full && python build_report.py",
+  "models": {
+    "opencode/big-pickle": {
+      "input_per_1M": 2.5,
+      "output_per_1M": 10.0,
+      "cache_read_per_1M": 1.0,
+      "cache_write_per_1M": 2.5,
+      "reasoning_per_1M": 0.0
+    },
+    "opencode/muse-spark-1.2-contributor-free": {
+      "input_per_1M": 0.0,
+      "output_per_1M": 0.0,
+      "cache_read_per_1M": 0.0,
+      "cache_write_per_1M": 0.0,
+      "reasoning_per_1M": 0.0
+    }
+  }
+}
